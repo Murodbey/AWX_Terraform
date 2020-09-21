@@ -31,7 +31,7 @@ git clone
 ```
 cd AWX_Terraform/
 ```
-Clone awx folder from official ansible/awx gihub. I will clone v12.0.0
+Clone awx folder from official ansible/awx github. I will clone v12.0.0
 ```
 git clone -b 12.0.0 https://github.com/ansible/awx.git
 ```
