@@ -26,7 +26,7 @@ ___
 ### Set up and initialize your Terraform workspace
 In your terminal, clone the following repository.
 ```
-git clone
+git clone https://github.com/happynation/AWX_Terraform.git
 ```
 ```
 cd AWX_Terraform/
@@ -40,7 +40,7 @@ Once you have cloned the repository, create terraform.tfvars file according to v
 In your initialized directory, run terraform apply and review the planned actions. Your terminal output should indicate the plan is running and what resources will be created.
 Copy public_ip address and paste in browser
 
-### ATTANTION
+### ATTENTION
 
 IF AWX stuck in AWX Upgrading phase
 please ssh to machine and stop, restart docker service. In my case I did that even few times...
