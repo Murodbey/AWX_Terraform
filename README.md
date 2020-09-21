@@ -24,7 +24,19 @@ ___
 
 
 ### Set up and initialize your Terraform workspace
-In your terminal, clone the following repository. Once you have cloned the repository, create terraform.tfvars file according to variables.tf file and then initialize your Terraform workspace, which will download and configure the providers.
+In your terminal, clone the following repository.
+```
+git clone
+```
+```
+cd AWX_Terraform/
+```
+Clone awx folder from official ansible/awx gihub. I will clone v12.0.0
+```
+git clone -b 12.0.0 https://github.com/ansible/awx.git
+```
+
+Once you have cloned the repository, create terraform.tfvars file according to variables.tf file and then initialize your Terraform workspace, which will download and configure the providers.
 In your initialized directory, run terraform apply and review the planned actions. Your terminal output should indicate the plan is running and what resources will be created.
 Copy public_ip address and paste in browser
 
